@@ -36,6 +36,15 @@
 
 
 /* Heading Styles */
+h1{
+   font-size: 2.2em;
+}
+h2{
+   font-size: 1.5em;
+}
+h1,h2 {
+   font-family: Quicksand, Geneva, Verdana, sans-serif;
+}
 
 article#about_tss h1{
    color: white;
@@ -56,14 +65,17 @@ article.syllabus h1, article.syllabus h2{
 
 /* Aside and Blockquote Styles */
 
-
+aside{
+   font-size: 0.8em;
+}
 
 
 
 /* Navigation Styles */	
 
-
-
+ nav{
+   font-size: 0.8em;
+}
 
 
 /* List Styles */
