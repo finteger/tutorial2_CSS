@@ -80,24 +80,31 @@ aside{
    font-size: 0.8em;
 }
 
+aside blockquote {
+   color: rgb(232,165,116);
+   margin: 20px 5px;
+}
 
 
 /* Navigation Styles */	
 
- nav{
+nav{
    font-size: 0.8em;
 }
 
 nav > ul {
    list-style-type: none;
    line-height: 2em;
+   padding: 5px;
 }
 
 nav a{
    text-decoration: none;
 }
 
-
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
 
 /* List Styles */
 
