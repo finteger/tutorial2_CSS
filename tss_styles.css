@@ -74,6 +74,7 @@ article.syllabus ol ol ol {
    list-style-type: decimal;
 }
 
+
 /* Aside and Blockquote Styles */
 
 aside{
@@ -106,12 +107,25 @@ nav > ul > li.newgroup {
    margin-top: 20px;
 }
 
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: rgb(255, 64, 255);
+   text-decoration: underline;
+}
+
 /* List Styles */
 
-article#about_tss ul{
+#about_tss ul{
    list-style-image: url(runicon.png);
 }
 
+/*using structural pseudo-class*/
+#about_tss ul li:nth-of-type(2){
+    list-style-image: url(bikeicon.png);
+}
+
+#about_tss ul li:last-of-type{
+    list-style-image: url(swimicon.png);
+}
 
 
 /* Footer Styles */
