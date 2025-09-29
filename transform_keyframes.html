@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        	@keyframes rotate{
+            	0% {transform: translateX(0);}
+                50% {transform: scale(5);}
+               100% {transform: translateX(100%);}
+            }
+        
+        
+            #box{
+               background: url('https://www.gimp.org/images/frontpage/wilber-big.png');
+               margin-top: 130px;
+               width: 200px;
+               height: 200px;
+               transform: translateX(134px) rotate(70deg) scale(2); 
+               animation: rotate;
+               animation-duration: 2s;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box"></div>
+    </body>    
+</html>
